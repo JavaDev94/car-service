@@ -44,15 +44,5 @@ public class ServiceOrder {
     @JoinColumn(name = "discount_id")
     private Discount discount;
 
-    // operator_id while changing status update operator_id also
-
-    //discount maybe spare table
-
-//    private List<Service> services;
-//
-//
-//    private List<SparePart> spareParts;
-
-
 
 }

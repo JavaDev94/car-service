@@ -20,4 +20,35 @@ public class Service {
     @Column(name = "service_cost")
     private Double serviceCost;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public ServiceOrder getServiceOrder() {
+        return serviceOrder;
+    }
+
+    public void setServiceOrder(ServiceOrder serviceOrder) {
+        this.serviceOrder = serviceOrder;
+    }
+
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
+
+    public Double getServiceCost() {
+        return serviceCost;
+    }
+
+    public void setServiceCost(Double serviceCost) {
+        this.serviceCost = serviceCost;
+    }
 }
